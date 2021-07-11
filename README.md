@@ -1,9 +1,9 @@
-###Author: José Roberto
-###E-mail: tekinforroberto@gmail.com
-####Project: DevsNotes
-####Description: Sistema de anotação simples
+### Author: José Roberto
+### E-mail: tekinforroberto@gmail.com
+#### Project: DevsNotes
+#### Description: Sistema de anotação simples
 
-Oque o projeto pecisa fazer?
+O que o projeto pecisa fazer?
 * Listar as anotações.
 * Pegar informações de uma anotação.
 * Inserir uma anotação.
@@ -11,10 +11,10 @@ Oque o projeto pecisa fazer?
 * Deletar uma anotação
 
 Qual a estrutura de dados?
-- Local para amarzenar as anotações
--- id
--- title
--- body
+* Local para amarzenar as anotações
+** id
+** title
+** body
 
 Quais os endpoints?
 - (Metodo) /url (Parâmetros)
