@@ -83,7 +83,7 @@ class NotesController extends Controller
                 ];
 
             } else {
-                $this->array['error'] = 'Nota não encontrado.';
+                $this->array['error'] = 'Nota não encontrada.';
             }
 
         } else {
@@ -93,5 +93,16 @@ class NotesController extends Controller
         return $this->array;
     }
     
+    public function delete($id) {
+        $note = Note::find($id);
 
+        if($note) {
+            $note->delete();
+
+        } else {
+            $this->array['error'] = 'Nota não encontrada.';
+        }
+
+        return $this->array; 
+    }
 }

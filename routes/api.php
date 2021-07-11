@@ -29,4 +29,4 @@ Route::get('/notes', [NotesController::class, 'all']);
 Route::get('/note/{id}', [NotesController::class, 'one']);
 Route::post('/note', [NotesController::class, 'new']);
 Route::put('/note/{id}', [NotesController::class, 'edit']);
-// Route::delete('/note/{id}', '');
+Route::delete('/note/{id}', [NotesController::class, 'delete']);
