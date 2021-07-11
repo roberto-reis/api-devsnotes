@@ -12,9 +12,9 @@ O que o projeto pecisa fazer?
 
 Qual a estrutura de dados?
 * Local para amarzenar as anotações
-** id
-** title
-** body
+* id
+* title
+* body
 
 Quais os endpoints?
 - (Metodo) /url (Parâmetros)
