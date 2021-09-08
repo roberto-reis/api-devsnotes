@@ -10,6 +10,7 @@ class NotesController extends Controller
     private $array = ['error'=>'', 'result'=>[]];
 
     public function all() {
+        
         $notes = Note::all();
         foreach($notes as $note) {
             $this->array['result'][] = [
